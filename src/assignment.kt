@@ -1,13 +1,22 @@
-fun main() {
-    val name ="gerardinekabatesi"
-    println(name)
-    var age =35
-    println(age)
-    var phone =250780030142
-    println(phone)
-    var weight =42
-    println(weight)
-    var citizen: Boolean= false
-    println(citizen)
+fun main(){
+var name="Hello Gerardine"
+print(name)
+    var sum=addition(2,3,4,5)
+    println(sum )
+    var modulus=modulus(32,10)
+    println(modulus)
+    Interestingfact()
+}
+fun modulus(num1:Int,num2:Int):Int{
+    var modulus=num1%num2
+    return(modulus)
 
+}
+fun addition(a:Int,b:Int,c:Int,d:Int):Int{
+var sum=a+b+c+d
+return(sum )
+}
+fun Interestingfact(){
+    var InterestingFact=("curiosity")
+    print(InterestingFact)
 }
